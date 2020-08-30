@@ -1,0 +1,169 @@
+* {
+  list-style: none;
+}
+.alert-box {
+  background: skyblue;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+.main-background {
+  background-image: url("img/wine.jpg");
+  background-size: cover;
+  color: white;
+  border-radius: 0px;
+  font-weight: bold;
+}
+.main-background h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.main-background p {
+  font-weight: bold;
+}
+.black-background {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.white-background {
+  background: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.7s;
+  transform: translateY(-400px);
+}
+.slide-down {
+  transform: translateY(100px);
+}
+.nav-menu {
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 15px;
+  align-items: center;
+  background-color: transparent;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  color: white;
+  height: 70px;
+  line-height: 80px;
+}
+.nav-menu ul {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 16px;
+}
+.nav-menu ul li {
+  margin: 0 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.large-logo {
+  margin: 0;
+  font-size: 3rem;
+  transition: all 0.4s;
+}
+.small-logo {
+  margin: 0;
+  font-size: 2.2rem;
+  transition: all 0.4s;
+}
+.nav-sub {
+  display: none;
+}
+.nav-black {
+  background: white;
+  color: black;
+}
+.email-alert {
+  display: none;
+  color: red;
+}
+.password-alert {
+  display: none;
+  color: red;
+}
+.left-menu {
+  width: 150px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  position: fixed;
+  /* margin-left: -150px; */
+  display: none;
+}
+/* -------------main---------------- */
+.main-wrap {
+  width: 40%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.jumbotron {
+  margin-bottom: 0;
+}
+/* --------------showcase-------------- */
+.slide {
+  padding: 50px 0;
+  overflow: hidden;
+  position: relative;
+  background: #ede9e9ed;
+}
+.slide h2 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 2.6rem;
+}
+.slide-container {
+  width: 300vw;
+  transition: all 1s;
+}
+
+.slide-next {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: scale(2);
+  cursor: pointer;
+}
+.slide-previous {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: scale(2);
+  cursor: pointer;
+}
+.slide-box {
+  width: 100vw;
+  float: left;
+}
+.slide-box img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.slide-box p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.slidebtn {
+  display: flex;
+  justify-content: center;
+}
+.slidebtn-sub {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000b8;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+}
